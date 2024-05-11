@@ -2,6 +2,8 @@
 import React, { useState } from "react";
 import { useTheme } from "next-themes";
 import { MdOutlineLightMode } from "react-icons/md";
+import { MdDarkMode } from "react-icons/md";
+
 import { MdOutlineMenu } from "react-icons/md";
 
 const Navbar = () => {
@@ -31,7 +33,7 @@ const Navbar = () => {
       </div>
 
       <div className="w-full hidden lg:flex lg:items-center  lg:w-auto">
-        <div className="text-sm lg:flex-grow">
+        <div className="text-sm lg:flex-grow justify-center items-center">
           <a
             href="#responsive-header"
             className="block mt-4 lg:inline-block lg:mt-0 font-bold	text-sky-400 text-lg mr-4"
@@ -52,9 +54,9 @@ const Navbar = () => {
           </a>
           <button
             onClick={toggleTheme}
-            className="bg-gray-300 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded ml-2"
+            className="bg-gray-300 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded ml-2 text-2xl"
           >
-            <MdOutlineLightMode color="black" />
+            <MdDarkMode color="black" />
           </button>
         </div>
       </div>

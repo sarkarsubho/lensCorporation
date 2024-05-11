@@ -6,7 +6,7 @@ const Hero = () => {
         <div className="container mx-auto h-full flex flex-col justify-center items-left text-left text-white">
           <h1 className="w-3/5 text-black text-4xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-8xl font-bold mb-4">We are at the forefront of AI</h1>
           <p className="text-lg mb-8 text-black font-bold">From Conserving Wildlife to Automatically Generating Caricatures We Do It All</p>
-          <button className="bg-black w-fit hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">learn More</button>
+          <button className="bg-black w-fit hover:w-1/5 text-white font-bold py-2 px-4 rounded">learn More</button>
         </div>
       </div>
     );
