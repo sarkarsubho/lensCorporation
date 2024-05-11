@@ -28,39 +28,6 @@ const About = () => {
         </div>
       </div>
 
-        {/* <div class="relative w-64 h-48 bg-gray-200 rounded-md overflow-hidden shadow-md">
-          <div class="w-full h-full transition-transform transform-gpu hover:scale-105">
-            <img
-              src="your_photo_url"
-              alt="Photo"
-              class="w-full h-full object-cover"
-            />
-          </div>
-
-          <div class="absolute inset-0 flex flex-col items-center justify-center p-4 bg-gray-800 bg-opacity-75 opacity-0 transition-opacity duration-300 hover:opacity-100">
-            <h2 class="text-white text-xl font-bold mb-2">Heading</h2>
-            <p class="text-white text-center mb-4">Description goes here...</p>
-            <a
-              href="#"
-              class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition-colors duration-300"
-            >
-              Learn More
-            </a>
-          </div>
-        </div> */}
-        {/*        
-        <p className="mb-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ornare
-          fermentum eros, id faucibus felis tincidunt et.
-        </p>
-        <p className="mb-4">
-          Pellentesque vitae enim sapien. Nulla facilisi. Proin eu mauris a
-          nulla aliquam fermentum.
-        </p>
-        <p>
-          Quisque pharetra, nisi a tempus suscipit, magna nulla varius ligula,
-          at placerat leo justo eget orci.
-        </p> */}
       </div>
     </div>
   );
