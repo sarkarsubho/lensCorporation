@@ -23,7 +23,7 @@ const About = () => {
           </button>
         </div>
         <div className="w-[40%] h-[300px] p-2 border-2 border-white rounded-xl bg-white hover:border-0">
-          <Image    src="https://lenscorp.ai/_next/image?url=%2FImages%2FaboutLatest.webp&w=828&q=75"
+          <Image    src="https://lenscorp.ai/_next/image?url=%2FImages%2FaboutLatest.webp&w=828&q=75" alt="team image"
             className="h-[100%] w-full object-cover rounded-lg hover:scale-110 ease-in-out  duration-300"
           />
         </div>
