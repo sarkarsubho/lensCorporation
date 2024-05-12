@@ -15,7 +15,7 @@ const About = () => {
           <h1 className="text-5xl text-bold mt-10">Welcome To LENS</h1>
           <p className="my-10">
             We put our hearts, souls and sweat into designing and developing
-            custom AI - powered solutions for your business so you don't have
+            custom AI powered solutions for your business so you do not have
             to.
           </p>
           <button className="bg-black text-white p-2 px-4 rounded-md mt-5 hover:bg-white hover:text-black hover:border-gray-300">
