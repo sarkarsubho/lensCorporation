@@ -5,6 +5,7 @@ import { MdOutlineLightMode } from "react-icons/md";
 import { MdDarkMode } from "react-icons/md";
 
 import { MdOutlineMenu } from "react-icons/md";
+import Image from "next/image";
 
 const Navbar = () => {
   //   const [theme, setTheme] = useTheme('light');
@@ -17,7 +18,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex items-center justify-between flex-wrap  p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <img
+        <Image
           className="h-16 w-16 mr-2"
           src="https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav_logo.e5fb945a.png&w=96&q=75"
           alt="Logo"
