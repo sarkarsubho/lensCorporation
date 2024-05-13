@@ -18,7 +18,7 @@ const Blogs = () => {
               <h1 className=" text-2xl">New! Generative AI</h1>
               <div className="bg-[#fff6cd] p-5 rounded-lg">
                 <p>
-                  In today's data-driven marketing world, keeping up with
+                  In todays data-driven marketing world, keeping up with
                   content creation demands can be a challenge. Read our latest
                   blog to explore the power of Generative AI and its potential
                   to reshape the marketing landscape....
@@ -90,21 +90,25 @@ const Blogs = () => {
           src="https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCo_1.ad2ee302.png&w=640&q=75"
           width={200}
           height={200}
+          alt="ate"
         />
         <Image
           src="https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCo_3.37f82c98.png&w=640&q=75"
           width={200}
           height={200}
+          alt="ate"
         />
         <Image
           src="https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCo_2.7e06895b.png&w=640&q=75"
           width={200}
           height={200}
+          alt="ate"
         />
         <Image
           src="https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgrov.97a72987.png&w=256&q=75"
           width={200}
           height={200}
+          alt="ate"
         />
       </div>
       <div className="bg-[#272e5c] py-14">

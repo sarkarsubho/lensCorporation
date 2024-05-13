@@ -42,8 +42,9 @@ const Footer = () => {
             src="https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav_logo.e5fb945a.png&w=256&q=75"
             width={100}
             height={100}
+            alt="ate"
           />
-          <p className="text-md mt-5 mb-14">Tomorrow's Vision, Today!</p>
+          <p className="text-md mt-5 mb-14">Tomorrows Vision, Today!</p>
           <div className="flex gap-x-5">
             <Facebook />
             <Instagram />
