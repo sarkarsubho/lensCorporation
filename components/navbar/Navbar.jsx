@@ -8,10 +8,10 @@ import { MdOutlineMenu } from "react-icons/md";
 import Image from "next/image";
 
 const Navbar = () => {
-  //   const [theme, setTheme] = useTheme('light');
+  const { theme, setTheme } = useTheme("light");
 
   const toggleTheme = () => {
-    // setTheme(theme === 'light' ? 'dark' : 'light');
+    // setTheme(theme === "light" ? "dark" : "light");
     // You can add logic to change the theme here
   };
 
@@ -21,6 +21,8 @@ const Navbar = () => {
         <Image
           className="h-16 w-16 mr-2"
           src="https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnav_logo.e5fb945a.png&w=96&q=75"
+          width={"100"}
+          height={"100"}
           alt="Logo"
         />
       </div>
@@ -63,7 +65,11 @@ const Navbar = () => {
             onClick={toggleTheme}
             className="bg-gray-300 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded ml-2 text-2xl"
           >
-            <MdDarkMode color="black" />
+            {theme === "light" ? (
+              <MdOutlineLightMode color="black" />
+            ) : (
+              <MdDarkMode color="black" />
+            )}
           </button>
         </div>
       </div>

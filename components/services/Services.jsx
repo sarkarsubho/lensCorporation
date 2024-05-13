@@ -71,6 +71,68 @@ const Services = () => {
           </div>
         </div>
       </div>
+      <div className="md:relative flex justify-center items-center mt-20 h-[300px] md:h-[580px] lg:h-[500px] bg-[#272e5c]">
+        <div
+          className={` hidden md:flex`}
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            overflow: "hidden",
+            lineHeight: 0,
+          }}
+        >
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+            style={{
+              position: "relative",
+              display: "block",
+              transform: "rotateY(-180deg)",
+              fill: "white",
+            }}
+          >
+            <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z"></path>
+          </svg>
+        </div>
+
+        <div className="md:absolute md:bottom-0 w-full md:flex md:justify-between md:items-center  md:pl-10">
+          <div className="hidden md:flex">
+            <img src="https://lenscorp.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FvectorAi.8ec84e23.png&w=750&q=75" />
+          </div>
+          <div className="w-full md:w-[30%] text-white text-center">
+            <h1 className="text-3xl md:text-6xl">
+              Meet <span>Tru-AI</span>
+            </h1>
+            <h3 className="text-2xl my-4">Design. Create. Deploy.</h3>
+            <h4>the Future of AI | Power to EDIT</h4>
+            <p className="my-4">
+              Based On Your Website & Traffic Trends, Tru-AI Optimises Your
+              Website
+            </p>
+            <button className="bg-[#272e5c] border-[1px] border-white text-white p-2 px-5 rounded-md my-5 hover:bg-white hover:text-black hover:border-gray-300">
+              Learn More
+            </button>
+          </div>
+          <div className="hidden md:block">
+            <div className="rounded-l-full">
+              <video
+                muted
+                autoPlay={true}
+                className="h-48 w-full rounded-l-full"
+              >
+                <source
+                  src="https://res.cloudinary.com/detwrhe0k/video/upload/v1691730954/lenscorp-website/product-intro_1_dmajx1_qaemeu.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
